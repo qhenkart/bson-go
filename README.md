@@ -9,8 +9,8 @@ The purpose of this package is to provide the ability to create and validate Mon
 this is all [official bson code](labix.org/v2/mgo/bson) modified slightly to output strings instead of objectId types
 
 Current FeatureList:
-`Create new Object IDs output as a string`
-`validate ObjectID strings`
+1. Create new Object IDs output as a string
+2. validate ObjectID strings
 
 ###usage:
 ```
