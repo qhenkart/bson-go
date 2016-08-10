@@ -30,7 +30,7 @@ func NewObjectID() string {
 	b[9] = byte(i >> 16)
 	b[10] = byte(i >> 8)
 	b[11] = byte(i)
-	return string(b[:])
+	return hex.EncodeToString(b[:])
 }
 
 // machineID stores machine id generated once and used in subsequent calls
