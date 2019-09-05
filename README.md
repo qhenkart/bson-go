@@ -1,4 +1,4 @@
-#BSON-GO
+# BSON-GO
 This is a lightweight, zero dependency library providing some of the basic functionality from [labix.org/v2/mgo/bson](labix.org/v2/mgo/bson)
 
 This package is primarily for those wanting to keep their microservices loosely-coupled from their database service layer
@@ -12,7 +12,7 @@ Current FeatureList:
 1. Create new Object IDs output as a string  
 2. validate ObjectID strings  
 
-###usage:
+### usage:
 ```
 s := objectID.NewObjectID()
 if ok := objectID.IsObjectIDHex(s); !ok {
@@ -20,7 +20,7 @@ if ok := objectID.IsObjectIDHex(s); !ok {
 }
 ```
 
-######according to the BSON page, I have to include this copyright disclaimer:
+###### according to the BSON page, I have to include this copyright disclaimer:
 
 
 
